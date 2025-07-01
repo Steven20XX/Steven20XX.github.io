@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pourquoi coder un site qui parle aux plantes ? | Codenawak</title>
+  <meta name="description" content="Un site web qui parle aux plantes ? Découvre pourquoi cette idée absurde cache des leçons puissantes sur la créativité, le développement web et notre relation avec la technologie." />
+  <meta name="keywords" content="site pour plantes, code absurde, développement web créatif, codenawak, humour web, tech insolite" />
+  <meta name="author" content="Codenawak" />
+  <link rel="canonical" href="https://www.codenawak.me/articles/site-qui-parle-aux-plantes" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pourquoi coder un site qui parle aux plantes ?" />
+  <meta property="og:description" content="Et si vos plantes avaient besoin d'un site web ? Une plongée délirante dans le développement web absurde et créatif." />
+  <meta property="og:image" content="https://www.codenawak.me/images/plante-site.jpg" />
+  <meta property="og:url" content="https://www.codenawak.me/articles/site-qui-parle-aux-plantes" />
+  <meta property="og:type" content="article" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pourquoi coder un site qui parle aux plantes ?" />
+  <meta name="twitter:description" content="Une idée absurde ? Peut-être. Mais aussi une réflexion drôle et profonde sur le web et les plantes." />
+  <meta name="twitter:image" content="https://www.codenawak.me/images/plante-site.jpg" />
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Pourquoi coder un site qui parle aux plantes ?",
+    "image": "https://www.codenawak.me/images/plante-site.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Codenawak"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Codenawak",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.codenawak.me/logo.png"
+      }
+    },
+    "url": "https://www.codenawak.me/articles/site-qui-parle-aux-plantes",
+    "datePublished": "2025-07-01",
+    "description": "Un article délirant (et presque sérieux) sur la création d’un site web pour communiquer avec vos plantes. Une satire pleine d’humour sur l’absurde du développement web moderne."
+  }
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 font-sans leading-relaxed">
+
+  <header class="p-4 border-b border-gray-200">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-indigo-600">Codenawak</h1>
+      <nav>
+        <a href="/" class="text-sm text-gray-600 hover:text-indigo-600">Accueil</a>
+        <a href="/a-propos.html" class="ml-4 text-sm text-gray-600 hover:text-indigo-600">À propos</a>
+        <a href="/#blog" class="ml-4 text-sm text-gray-600 hover:text-indigo-600">Blog</a>
+        <a href="/#contact" class="ml-4 text-sm text-gray-600 hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <article>
+      <h1 class="text-3xl font-bold mb-4 text-indigo-600">Pourquoi coder un site qui parle aux plantes ?</h1>
+      <p class="text-sm text-gray-500 mb-6">Publié le 1er juillet 2025 par Codenawak</p>
+
+      <img src="https://www.codenawak.me/images/plante-site.jpg" alt="Un site web pour les plantes" class="rounded-lg mb-6 shadow-md" />
+
+      <p class="mb-4">
+        Dans un monde où tout semble déjà avoir été codé, des réseaux sociaux aux réveils connectés pour chats, il fallait bien franchir une nouvelle frontière : <strong>un site web dédié aux plantes</strong>.
+        Une plateforme qui leur parle, les comprend (à sa façon), et leur raconte des blagues carottes. Mais pourquoi coder ça ?
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">1. La créativité débridée du développeur en manque de sens</h2>
+      <p class="mb-4">
+        Il est 3h du matin. Vous êtes devant VS Code. Vous avez terminé tous vos projets utiles. Que faire ? Créer un site pour votre ficus. Pourquoi ? Parce que vous pouvez.
+        Cette idée absurde révèle quelque chose de profond : le besoin de créer sans objectif productif. Juste pour le fun. Juste pour expérimenter.
+      </p>
+
+      <p class="mb-4">
+        Le développement web n’est pas qu’un outil de startup. C’est aussi un terrain d’expression créative, de satire technologique et d’auto-dérision.
+        Un site pour plantes, c’est une rébellion silencieuse contre la tyrannie de l’utile.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">2. Une UX pensée pour la photosynthèse</h2>
+      <p class="mb-4">
+        Bien sûr, vos plantes n’ont pas d’yeux. Ni de clavier. Mais cela n’empêche pas de penser à leur "expérience utilisateur".
+        Faut-il utiliser une palette de verts apaisants ? Des vibrations sonores à fréquence chlorophyllo-compatibles ?
+      </p>
+
+      <p class="mb-4">
+        Coder pour une entité non humaine oblige à repenser l’interface. C’est un exercice d’empathie technologique. Une manière de s’extirper des conventions et de voir le web sous un autre angle.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">3. L'IA qui parle "plante" (ou tente de le faire)</h2>
+      <p class="mb-4">
+        Grâce à l’IA, il est désormais possible de générer automatiquement des messages d’encouragement aux plantes. Exemple :
+        <em>“Salut, Chlorophylle. Tu es magnifique aujourd’hui. Continue de transformer le CO₂, championne.”</em>
+      </p>
+
+      <p class="mb-4">
+        L’absurdité devient un terrain de jeu pour expérimenter l’IA d’une manière légère, sans pression. Et peut-être que parler à ses plantes via un site web, c’est aussi parler un peu à soi-même.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">4. Un projet qui attire l'attention (et les backlinks)</h2>
+      <p class="mb-4">
+        Sur un plan SEO, un projet aussi insolite attire la curiosité. Il est <strong>facilement partageable</strong>, tweetable, et potentiellement viral.
+        C’est un exemple de <strong>linkbait</strong> bien exécuté : bizarre, inutile... mais remarquablement mémorable.
+      </p>
+
+      <p class="mb-4">
+        Un site qui parle aux plantes peut générer plus de backlinks qu’un SaaS sur la productivité. Triste mais vrai.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">5. Et si vos plantes vous répondaient ?</h2>
+      <p class="mb-4">
+        Imaginons que la plante puisse répondre. Elle pourrait envoyer des signaux via l’humidité du sol, la luminosité, ou même par capteur Arduino.
+        Le site web interpréterait cela et afficherait un message comme : <em>“J’ai soif, humain. C’est maintenant ou je flétris.”</em>
+      </p>
+
+      <p class="mb-4">
+        Là, on touche à l’internet des objets absurdes. Une nouvelle frontière technologique où l’humour rencontre la domotique.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">6. Conclure avec une feuille de style</h2>
+      <p class="mb-4">
+        Au final, coder un site qui parle aux plantes est bien plus qu’une blague. C’est une réflexion sur le rôle du développeur dans la société,
+        sur le droit à la création inutile, et sur la joie pure d’écrire du code qui ne sert à rien… sauf à vous faire sourire.
+      </p>
+
+      <p class="mb-8">
+        Si ce projet ne plaît qu’à une seule entité vivante (votre Monstera dans le salon), c’est déjà une réussite.
+      </p>
+
+      <div class="mt-8">
+        <a href="/#blog" class="text-indigo-600 hover:underline">&larr; Retour au blog</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="p-4 border-t border-gray-200 text-center text-sm text-gray-500">
+    © 2025 Codenawak. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
