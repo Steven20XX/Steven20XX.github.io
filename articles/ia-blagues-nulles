@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Créer une IA qui écrit des blagues nulles – Tuto complet | Codenawak</title>
+  <meta name="description" content="Apprenez à créer une intelligence artificielle qui génère des blagues pourries. Un tutoriel complet, drôle et absurde pour développeurs curieux." />
+  <meta name="keywords" content="IA blagues nulles, générateur d'humour, intelligence artificielle humour, codenawak, tuto absurde, machine à vannes" />
+  <meta name="author" content="Codenawak" />
+  <link rel="canonical" href="https://www.codenawak.me/articles/ia-blagues-nulles" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Créer une IA qui écrit des blagues nulles – Tuto complet" />
+  <meta property="og:description" content="Un guide sérieux pour un projet idiot : une IA génératrice de blagues pas drôles. Parce qu'on peut." />
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6f/Emojione_1F923.svg" />
+  <meta property="og:url" content="https://www.codenawak.me/articles/ia-blagues-nulles" />
+  <meta property="og:type" content="article" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Créer une IA qui écrit des blagues nulles – Tuto complet" />
+  <meta name="twitter:description" content="Un tuto hilarant pour coder une IA qui n’est pas drôle (volontairement). Une masterclass d’absurdité technique." />
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6f/Emojione_1F923.svg" />
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Créer une IA qui écrit des blagues nulles – Tuto complet",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Emojione_1F923.svg",
+    "author": {
+      "@type": "Person",
+      "name": "Codenawak"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Codenawak",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.codenawak.me/logo.png"
+      }
+    },
+    "url": "https://www.codenawak.me/articles/ia-blagues-nulles",
+    "datePublished": "2025-07-01",
+    "description": "Un tutoriel complet et délirant pour créer une IA spécialisée dans l'humour bas de gamme. Codez, riez (ou pas), et apprenez."
+  }
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 font-sans leading-relaxed">
+
+  <header class="p-4 border-b border-gray-200">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-indigo-600">Codenawak</h1>
+      <nav>
+        <a href="/" class="text-sm text-gray-600 hover:text-indigo-600">Accueil</a>
+        <a href="/a-propos.html" class="ml-4 text-sm text-gray-600 hover:text-indigo-600">À propos</a>
+        <a href="/#blog" class="ml-4 text-sm text-gray-600 hover:text-indigo-600">Blog</a>
+        <a href="/#contact" class="ml-4 text-sm text-gray-600 hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <article>
+      <h1 class="text-3xl font-bold mb-4 text-indigo-600">Créer une IA qui écrit des blagues nulles – Tuto complet</h1>
+      <p class="text-sm text-gray-500 mb-6">Publié le 1er juillet 2025 par Codenawak</p>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Emojione_1F923.svg" alt="Émoji qui rigole" class="rounded-lg mb-6 w-32 h-32 mx-auto" />
+
+      <p class="mb-4">
+        Vous avez toujours rêvé de coder une intelligence artificielle capable d’écrire des blagues nulles ? Non ? Tant pis, on va le faire quand même.
+        Parce qu’au fond, l’humour raté est une forme d’art. Et parce qu’en 2025, tout peut devenir un projet IA, même les pires idées.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">1. La mission : provoquer le malaise humoristique</h2>
+      <p class="mb-4">
+        Le but n’est pas de faire rire, mais de faire souffrir (gentiment). L’IA que nous allons créer devra produire des blagues nulles, tirées par les cheveux,
+        et si possible gênantes. Exemple :
+      </p>
+      <blockquote class="italic text-gray-600 border-l-4 border-indigo-300 pl-4 mb-4">
+        Pourquoi les développeurs détestent les escaliers ?<br />
+        Parce qu’ils préfèrent les scripts !
+      </blockquote>
+
+      <p class="mb-4">
+        Voilà le niveau. Si vous avez ri, vous êtes probablement fatigué. Et donc apte à lire la suite.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">2. Le modèle de base : simplicité avant sophistication</h2>
+      <p class="mb-4">
+        Inutile de fine-tuner GPT-4. On commence avec une base plus simple : une IA "rule-based" en Python.
+        Objectif : combiner des templates de blagues + un dictionnaire de mots informatiques.
+      </p>
+
+      <pre class="bg-gray-100 p-4 rounded mb-4 overflow-auto text-sm">
+import random
+
+sujets = ["un développeur", "une variable", "un bug", "un commit"]
+verbes = ["entre dans un bar", "crashe sans raison", "fait une blague", "pousse en prod"]
+chutes = ["et personne ne rigole", "et Git refuse de le suivre", "et ça devient un feature", "et tout le monde applaudit (sauf le QA)"]
+
+def blague_nulle():
+    return f"{random.choice(sujets)} {random.choice(verbes)}... {random.choice(chutes)}"
+
+print(blague_nulle())
+      </pre>
+
+      <p class="mb-4">
+        C’est naze ? Oui. C’est l’objectif.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">3. Ajouter une couche d'apprentissage artificiel</h2>
+      <p class="mb-4">
+        Pour aller plus loin, on peut entraîner un petit modèle sur un dataset de blagues réelles (les pires, bien sûr). Utilisez un corpus de forums type "blagues à deux balles",
+        nettoyez-le, vectorisez-le (TF-IDF ou embeddings simples), et utilisez un modèle basique de type RNN ou Markov.
+      </p>
+
+      <p class="mb-4">
+        Vous obtiendrez un générateur d’humour affligeant, aléatoire et, parfois, accidentellement drôle.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">4. Créer une interface web absurde</h2>
+      <p class="mb-4">
+        Le front-end doit être à la hauteur du ridicule du concept : emojis géants, police Comic Sans, bruitages audio optionnels (du style « BADUM TSSS »).
+        Vous pouvez même déclencher une alerte JavaScript à chaque blague ratée :
+      </p>
+
+      <pre class="bg-gray-100 p-4 rounded mb-4 overflow-auto text-sm">
+&lt;script&gt;
+  alert("Préparez-vous : blague nulle en approche !");
+&lt;/script&gt;
+      </pre>
+
+      <p class="mb-4">
+        Ambiance garantie.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">5. Bonus SEO : viser les requêtes absurdes</h2>
+      <p class="mb-4">
+        Oui, ce projet peut être une pépite SEO. Misez sur des mots-clés improbables mais spécifiques comme :
+      </p>
+      <ul class="list-disc list-inside mb-4 text-gray-700">
+        <li>“générateur de blagues nulles IA”</li>
+        <li>“intelligence artificielle humour raté”</li>
+        <li>“tuto Python IA drôle”</li>
+        <li>“comment faire une IA pas drôle du tout”</li>
+      </ul>
+
+      <p class="mb-4">
+        Le contenu décalé attire les liens, les partages, et la sympathie des développeurs désabusés.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4">6. Et ensuite ? On en fait quoi ?</h2>
+      <p class="mb-4">
+        Vous pouvez publier vos blagues générées sur un compte Twitter automatique, les afficher sur une page web aléatoire, ou les imprimer et les accrocher aux toilettes du bureau.
+      </p>
+
+      <p class="mb-8">
+        L’important, c’est de ne pas se prendre au sérieux. Et de coder, encore et toujours, même (surtout ?) pour des raisons absurdes.
+      </p>
+
+      <div class="mt-8">
+        <a href="/#blog" class="text-indigo-600 hover:underline">&larr; Retour au blog</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="p-4 border-t border-gray-200 text-center text-sm text-gray-500">
+    © 2025 Codenawak. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
